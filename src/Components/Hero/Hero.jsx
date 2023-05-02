@@ -21,7 +21,6 @@ function Hero() {
       ...cardList,
       <CardTodoStyled key={cardList.length}>
         {inputValue}
-
         <i class="fa-solid fa-trash"></i>
       </CardTodoStyled>,
     ]);
@@ -30,6 +29,7 @@ function Hero() {
   const removeAllCards = () => {
     setCardList([]);
   };
+
   return (
     <StyledHero>
       <h1>Todo List</h1>
