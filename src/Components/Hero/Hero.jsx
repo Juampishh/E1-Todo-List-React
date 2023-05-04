@@ -25,7 +25,6 @@ function Hero() {
       </CardTodoStyled>,
     ]);
   }
-
   const removeAllCards = () => {
     setCardList([]);
   };
